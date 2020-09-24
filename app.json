@@ -1,5 +1,5 @@
 {
-  "name": "TG Rename Bot",
+  "name": "Turbo Renamer",
   "description": "Telegram's best Open Source Rename Bot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -22,8 +22,8 @@
       "value": ""
     },
     "USER_NAME": {
-      "description": "Your user name like @Ns_AnoNymouS",
-      "value": "@Ns_AnoNymouS"
+      "description": "Your user name like @avatharsink",
+      "value": "@avatharsink"
     },
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
