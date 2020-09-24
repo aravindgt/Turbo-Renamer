@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Anonymous
+# (c) Turbo Renamer
 
 # the logging things
 import logging
