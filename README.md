@@ -1,5 +1,5 @@
-# TG-RENAMER-BOT
-## Rename Bot - Clone of  [Renamer⚡](https://t.me/renamer23_bot)
+# Turbo Renamer
+## Rename Bot - Clone of  [Renamer⚡](https://t.me/turboremaxbot)
 ---
 
 An Open Source Rename Telegram RoBot
@@ -16,7 +16,7 @@ An Open Source Rename Telegram RoBot
 
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT/tree/master)
+[![Deploys](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT/tree/master)
 
 ## Available BotFather commands
 ```
