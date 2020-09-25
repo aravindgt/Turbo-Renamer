@@ -22,12 +22,12 @@ Type /help for more details."""
     DEL_ETED_CUSTOM_THUMB_NAIL = "🤔 Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "🤨 Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "👹 Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = "Share and Support As \n@SerialCoIn"
+    CUSTOM_CAPTION_UL_FILE = "<b>\nShare and Support \n\n@SerialCoIn</b>"
     NO_CUSTOM_THUMB_NAIL_FOUND = "😠 No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """Vanakkam <b><i>{}</i></b>, 
 
-I am Turbo Renamer bot ✍ by <a href='https://t.me/{}'>Avathar Gik</a>
+I am Turbo Renamer bot ✍ by\n <a href='https://t.me/{}'>Asuran</a>
     
 1. Send Me A Thumbnail.
 
@@ -42,7 +42,7 @@ I am Turbo Renamer bot ✍ by <a href='https://t.me/{}'>Avathar Gik</a>
 
 --------
 
-Support Group : @SerialCoIn"""
+Support Group : <b>@SerialCoIn</b>"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🙆 Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
     REPLY_TO_DOC_FOR_RENAME_VIDEO = "🙋 Reply to a Telegram media to `/rename_video New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
