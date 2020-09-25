@@ -2,8 +2,6 @@
 ## Rename Bot - [Renamer⚡](https://t.me/turboremaxbot)
 ---
 
-An Open Source Rename Telegram RoBot
-
 **My Feature**:
 
 👉 Rename any Telegram Files with Custom Thumbnail Support and upload as file or video
@@ -17,7 +15,6 @@ An Open Source Rename Telegram RoBot
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/AsuranJ/Turbo-Renamer/tree/master)
-
 
 ## Available BotFather commands
 ```
