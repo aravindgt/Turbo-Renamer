@@ -1,7 +1,7 @@
 class Translation(object):
     START_TEXT = """Hello <i><b>{}</b></i>,
 
-This is a Telegram Rename clone of <a href='https://t.me/turboremaxbot'>Turbo Renamer ⚡</a> by {}
+This is a Telegram Rename bot <a href='https://t.me/turboremaxbot'>Turbo Renamer ⚡</a> by {}
 
 I Can rename ✍ with custom thumbnail and upload as video/file
 
@@ -9,10 +9,10 @@ Type /help for more details."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
-    DOWNLOAD_START_VIDEO = "Downloading to Turbo Server.....📥🐅🐅"
-    DOWNLOAD_START = "Downloading to Turbo Server.....📥🔥🔥"
-    UPLOAD_START_VIDEO = "Uploading as Video.....📤⚡⚡"
-    UPLOAD_START = "Uploading as File.....📤🌹🌹"
+    DOWNLOAD_START_VIDEO = "Downloading to Turbo Server.....⤵️"
+    DOWNLOAD_START = "Downloading to Turbo Server.....⤵️"
+    UPLOAD_START_VIDEO = "Uploading as Video.....⤴️"
+    UPLOAD_START = "Uploading as File.....⤴️"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations.I can't do anything for that 🤷‍♂️."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using [Turbo Renamer](https://t.me/avatharsink)'s bot.**"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
@@ -21,7 +21,7 @@ Type /help for more details."""
     SAVED_CUSTOM_THUMB_NAIL = "Custom File thumbnail saved 🤗 permanently. This image will be used in the File."
     DEL_ETED_CUSTOM_THUMB_NAIL = "🤔 Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "🤨 Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "🤫 Document Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "👹 Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = "Share and Support As \n@SerialCoIn"
     NO_CUSTOM_THUMB_NAIL_FOUND = "😠 No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
@@ -67,4 +67,4 @@ Please short your file name and try again!"""
 
 **👥 Group:** [Tamil Serial Group](https://t.me/SerialCoIng)
 
-**💻 Source Code:**[Press Me](https://github.com/Empty)"""
+**💻 Source Code:**[Press Me](https://t.me/SerialCoIn)"""
