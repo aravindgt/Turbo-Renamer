@@ -1,7 +1,7 @@
 class Translation(object):
-    START_TEXT = """Hello <i><b>{}</b></i>,
+    START_TEXT = """Vanakkam <i><b>{}</b></i>,
 
-This is a Telegram Rename bot <a href='https://t.me/turboremaxbot'>Turbo Renamer ⚡</a> by {}
+Welcome to Our <a href='https://t.me/turboremaxbot'><b>Turbo Renamer ⚡</b></a> bot by {}
 
 I Can rename ✍ with custom thumbnail and upload as video/file
 
@@ -27,7 +27,7 @@ Type /help for more details."""
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """Vanakkam <b><i>{}</i></b>, 
 
-I am Turbo Renamer bot ✍ by\n <a href='https://t.me/{}'>Asuran</a>
+I am Turbo Renamer bot ✍ by <a href='https://t.me/{}'><b>Asuran</b></a>
     
 1. Send Me A Thumbnail.
 
