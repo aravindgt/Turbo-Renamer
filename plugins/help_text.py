@@ -25,7 +25,7 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-thala = 'https://t.me/{}'.format(Config.USER_NAME[1:])
+myfather = 'https://t.me/{}'.format(Config.USER_NAME[1:])
 
 
 
@@ -63,7 +63,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('Turbo Renamer 🤫', url=thala)
+          InlineKeyboardButton('Turbo Renamer 🤫', url=myfather)
           ]
         ]
        )
