@@ -6,11 +6,6 @@
 
 👉 Rename any Telegram Files with Custom Thumbnail Support and upload as file or video
 
-### Installation
-
-#### The Easy Way
-
-**Watch infotel Video for knowing how to Create yoir own Bot** - 👉 https://youtu.be/yYHrSnuYXpA
 
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
