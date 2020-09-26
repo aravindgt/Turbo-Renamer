@@ -112,7 +112,7 @@ async def rename_video(bot, update):
             c_time = time.time()
             await bot.send_video(
                 chat_id=update.chat.id,
-                video=the_real_download_location,
+                video=new_file_name,
                 caption=f"<b>{file_name} \n\nShare and Support\n\n@SerialCoIn</b>",
                 duration=duration,
                 width=width,
@@ -131,7 +131,7 @@ async def rename_video(bot, update):
             )
             try:
                 os.remove(new_file_name)
-                #os.remove(thumb_image_path)
+                os.remove(thumb_image_path)
             except:
                 pass
             await bot.edit_message_text(
