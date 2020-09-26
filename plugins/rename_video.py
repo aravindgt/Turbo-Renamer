@@ -106,7 +106,7 @@ async def rename_video(bot, update):
                 img = Image.open(thumb_image_path)
                 # https://stackoverflow.com/a/37631799/4723940
                 # img.thumbnail((90, 90))
-                img.resize((320, height))
+                img.resize((90, height))
                 img.save(thumb_image_path, "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
             c_time = time.time()
@@ -130,7 +130,7 @@ async def rename_video(bot, update):
             )
             try:
                 os.remove(the_real_download_location)
-                os.remove(thumb_image_path)
+                #os.remove(thumb_image_path)
             except:
                 pass
             await bot.edit_message_text(
