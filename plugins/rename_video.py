@@ -118,7 +118,6 @@ async def rename_video(bot, update):
                 width=width,
                 height=height,
                 supports_streaming=True,
-    
                 # reply_markup=reply_markup,
                 thumb=thumb_image_path
                 reply_to_message_id=update.reply_to_message.message_id,
