@@ -11,7 +11,7 @@
   "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/SpEcHiDe/AnyDLBot",
   "repository": "https://github.com/AsuranJ/Turbo-Renamer",
-  "logo": "https://telegra.ph/file/a29f59f9325ff922ad98b.jpg",
+  "logo": "https://telegra.ph/file/47c2ddd7c5fee2b140bf4.jpg",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -39,7 +39,7 @@
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "1370501629"
+      "value": "880087645"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
