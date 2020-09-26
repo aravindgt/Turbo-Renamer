@@ -17,7 +17,7 @@ Type /help for more details."""
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using [Turbo Renamer](https://t.me/JAsuran123)'s bot.**"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://t.me/avatharsink'>Turbo Renamer</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://t.me/JAsuran123'>Turbo Renamer</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom File thumbnail saved 🤗 permanently. This image will be used in the File."
     DEL_ETED_CUSTOM_THUMB_NAIL = "🤔 Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "🤨 Media cleared succesfully."
@@ -61,10 +61,10 @@ Please short your file name and try again!"""
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Turbo Renamer](https://t.me/JAsuran123)
+**👨‍💻 Developer:** [Turbo Renamer](https://t.me/SerialCoIn)
 
 📮 Channel: [Serial](https://t.me/SerialCoIn)
 
 **👥 Group:** [Tamil Serial Group](https://t.me/SerialCoIng)
 
-**💻 Source Code:**[Press Me](https://t.me/SerialCoIn)"""
+**💻 Source Code:**[Press Me](https://www.youtube.com)"""
