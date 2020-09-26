@@ -112,13 +112,14 @@ async def rename_video(bot, update):
             c_time = time.time()
             await bot.send_video(
                 chat_id=update.chat.id,
-                video=the_real_download_location,
+                video=new_file_name,
                 caption=f"<b>{file_name} \n\nShare and Support\n\n@SerialCoIn</b>",
                 duration=duration,
                 width=width,
                 height=height,
                 supports_streaming=True,
                 # reply_markup=reply_markup,
+                thumb=thumb_image_path,
                 reply_to_message_id=update.reply_to_message.message_id,
                 progress=progress_for_pyrogram,
                 progress_args=(
@@ -128,7 +129,7 @@ async def rename_video(bot, update):
                 )
             )
             try:
-                os.remove(the_real_download_location)
+                os.remove(new_file_name)
                 #os.remove(thumb_image_path)
             except:
                 pass
