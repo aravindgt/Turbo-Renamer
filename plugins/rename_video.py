@@ -87,6 +87,28 @@ async def rename_video(bot, update):
                 chat_id=update.chat.id,
                 message_id=b.message_id
                 )
+
+             logger.info(the_real_download_location)
+            # get the correct width, height, and duration for videos greater than 10MB
+            # ref: message from @BotSupport
+            width = 0
+            height = 0
+            duration = 0
+            metadata = extractMetadata(createParser(the_real_download_location))
+            if metadata.has("duration"):
+                duration = metadata.get('duration').seconds
+            thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
+            if not os.path.exists(thumb_image_path):
+                thumb_image_path = await take_screen_shot(
+                    the_real_download_location,
+                    os.path.dirname(the_real_download_location),
+                    random.randint(
+                        0,
+                        duration - 1
+                    )
+                )
+
+
             logger.info(the_real_download_location)
             thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
             if not os.path.exists(thumb_image_path):
@@ -110,10 +132,10 @@ async def rename_video(bot, update):
                 img.save(thumb_image_path, "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
             c_time = time.time()
-            duration=duration,
             await bot.send_video(
                 chat_id=update.chat.id,
                 video=new_file_name,
+                duration=duration,
                 caption=f"<b>{file_name} \n\nShare and Support\n\n@SerialCoIn</b>",
                 supports_streaming=True,
                 # reply_markup=reply_markup,
