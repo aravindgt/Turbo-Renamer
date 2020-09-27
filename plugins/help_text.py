@@ -25,9 +25,11 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-myfather = 'https://t.me/{}'.format(Config.USER_NAME[1:])
+myfather = 'https://t.me/JAsuran123'.format(Config.USER_NAME[1:])
 
+channel = 'https://t.me/SerialCoIn'
 
+group = 'https://t.me/SerialCoIng'
 
 from helper_funcs.chat_base import TRChatBase
 
@@ -63,9 +65,26 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('Turbo Renamer 🤫', url=myfather)
+          InlineKeyboardButton('Turbo Renamer 🐍', url=myfather)
           ]
         ]
+          
+          reply_markup=InlineKeyboardMarkup(
+
+[
+
+          [
+
+          InlineKeyboardButton('Support Channel', url=channel)
+
+          ]
+
+        ]
+          
+
+          
+          
+         
        )
      )
 @pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
