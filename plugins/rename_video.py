@@ -92,8 +92,8 @@ async def rename_video(bot, update):
             if not os.path.exists(thumb_image_path):
                 thumb_image_path = None
             else:
-                width = 0
-                height = 0
+                width = width
+                height = height
                 metadata = extractMetadata(createParser(thumb_image_path))
                 if metadata.has("width"):
                     width = metadata.get("width")
