@@ -27,7 +27,7 @@ Type /help for more details."""
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """Vanakkam <b><i>{}</i></b>, 
 
-I am Turbo Renamer bot ✍ by <a href='https://t.me/{}'><b>Asuran</b></a>
+I am Turbo Renamer bot ✍ by <a href='https://t.me/JAsuran123'><b>Asuran</b></a>
     
 1. Send Me A Thumbnail.
 
@@ -56,7 +56,7 @@ The given file name has {num} characters.
 ©️ <code>@turboremaxbot</code>
 Please short your file name and try again!"""
 
-    About = """Hi __{}__,
+    About = """<b>Hi __{}__,</b>\n\n
 **📝 Language:** Python 3
 
 **🧰 Framework:** Pyrogram
