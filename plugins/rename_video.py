@@ -92,9 +92,6 @@ async def rename_video(bot, update):
             thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
             if not os.path.exists(thumb_image_path):
                 thumb_image_path = None
-            width = 0
-            height = 0
-            duration = 0
             else:
                 width = width
                 height = height
@@ -117,7 +114,6 @@ async def rename_video(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video=new_file_name,
-                duration=duration,
                 caption=f"<b>{file_name} \n\nShare and Support\n\n@SerialCoIn</b>",
                 supports_streaming=True,
                 # reply_markup=reply_markup,
