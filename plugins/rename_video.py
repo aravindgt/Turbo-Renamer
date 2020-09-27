@@ -88,31 +88,20 @@ async def rename_video(bot, update):
                 message_id=b.message_id
                 )
 
-             logger.info(the_real_download_location)
-            # get the correct width, height, and duration for videos greater than 10MB
-            # ref: message from @BotSupport
+            logger.info(the_real_download_location)
+            thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
+            if not os.path.exists(thumb_image_path):
+                thumb_image_path = None
             width = 0
             height = 0
             duration = 0
             metadata = extractMetadata(createParser(the_real_download_location))
             if metadata.has("duration"):
                 duration = metadata.get('duration').seconds
-            thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
-            if not os.path.exists(thumb_image_path):
-                thumb_image_path = await take_screen_shot(
-                    the_real_download_location,
-                    os.path.dirname(the_real_download_location),
-                    random.randint(
+            random.randint(
                         0,
                         duration - 1
                     )
-                )
-
-
-            logger.info(the_real_download_location)
-            thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
-            if not os.path.exists(thumb_image_path):
-                thumb_image_path = None
             else:
                 width = width
                 height = height
