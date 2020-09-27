@@ -114,7 +114,6 @@ async def rename_video(bot, update):
                 chat_id=update.chat.id,
                 video=new_file_name,
                 caption=f"<b>{file_name} \n\nShare and Support\n\n@SerialCoIn</b>",
-                duration=duration,
                 supports_streaming=True,
                 # reply_markup=reply_markup,
                 thumb=thumb_image_path,
