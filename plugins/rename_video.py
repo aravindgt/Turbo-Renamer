@@ -95,13 +95,6 @@ async def rename_video(bot, update):
             width = 0
             height = 0
             duration = 0
-            metadata = extractMetadata(createParser(the_real_download_location))
-            if metadata.has("duration"):
-                duration = metadata.get('duration').seconds
-            random.randint(
-                        0,
-                        duration - 1
-                    )
             else:
                 width = width
                 height = height
