@@ -26,12 +26,17 @@ import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from helper_funcs.chat_base import TRChatBase
-import database as sql
+import database.database as sql
+
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["generatecustomthumbnail"]))
 async def generate_custom_thumbnail(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
-        await update.reply_text("You are B A N N E D")
+        await bot.delete_messages(
+            chat_id=update.chat.id,
+            message_ids=update.message_id,
+            revoke=True
+        )
         return
     TRChatBase(update.from_user.id, update.text, "generatecustomthumbnail")
     if update.reply_to_message is not None:
@@ -128,8 +133,10 @@ async def delete_thumbnail(bot, update):
     TRChatBase(update.from_user.id, update.text, "deletethumbnail")
     download_location = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id)
     try:
-        await sql.del_thumb(update.from_user.id)
         os.remove(download_location + ".jpg")
+        os.remove(thumb_image)
+        # os.remove(download_location + ".json")
+        await sql.del_thumb(update.from_user.id)
     except:
         pass
     await bot.send_message(
