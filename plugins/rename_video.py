@@ -112,7 +112,7 @@ async def rename_video(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video=new_file_name,
-                duration=duration,
+              #  duration=duration,
                 caption=f"<b>{file_name} \n\nShare and Support\n\n@SerialCoIn</b>",
                 supports_streaming=True,
                 # reply_markup=reply_markup,
