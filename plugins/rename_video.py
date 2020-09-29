@@ -45,10 +45,10 @@ async def rename_video(bot, update):
     TRChatBase(update.from_user.id, update.text, "rename")
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
-        if len(file_name) > 64:
+        if len(file_name) > 128:
             await update.reply_text(
                 Translation.IFLONG_FILE_NAME.format(
-                    alimit="64",
+                    alimit="128",
                     num=len(file_name)
                 )
             )
@@ -121,7 +121,7 @@ async def rename_video(bot, update):
                 video=new_file_name,
                 duration=duration,
                 thumb=thumb_image_path,
-                caption=description,
+                caption=f"<b>{file_name} \n\nShare and Support\n\n@Ns_Bot_supporters and @SerialCoIn</b>",
                 # reply_markup=reply_markup,
                 reply_to_message_id=update.reply_to_message.message_id,
                 progress=progress_for_pyrogram,
