@@ -39,6 +39,8 @@ I am Renamer bot ✍ by <a href='https://t.me/{}'>My Father 👨‍🏫</a>
 
 4. Reply to that message with <code>/rename_vidoe new name.extension</code>. with custom thumbnail support.\n(uploading as Video)
 
+5. Reply to that message with <code>/photo</code> U will get screenshots for replying file
+
    
 <b>Thanks to <i><a href="https://t.me/Ns_AnoNymous">Anonymous 👨‍🏫</a></i> for his source code. check /about for source code</b>
 
@@ -46,7 +48,8 @@ I am Renamer bot ✍ by <a href='https://t.me/{}'>My Father 👨‍🏫</a>
 
 Support Group : @Ns_Bot_supporters"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "🤦‍♂️ Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.\n\n(For uploading as file).\n\nSee /help for mor information. "
-    REPLY_TO_DOC_FOR_RENAME_VIDEO = "🤦‍♂️ Reply to a Telegram media to `/renamev New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
+    REPLY_TO_DOC_FOR_RENAME_VIDEO = "🤦‍♂️ Reply to a Telegram media to `/rename_video New Name.extension` with custom thumbnail support.\n\n(For uploading as video).\n\nSee /help for mor information."
+    REPLY_TO_DOC_FOR_SCSS = "Reply to /photo a Telegram Files to get screenshots"
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
     FREE_USER_LIMIT_Q_SZE = """Cannot Process.
 Free users only 1 request per 30 minutes.
